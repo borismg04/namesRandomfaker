@@ -4,7 +4,7 @@ let names = [];
 
 for (let i = 0; i <= 1000; i++) {
     const randomName = faker.name.findName();
-    names.push("Number = " + i, "Name = " + randomName);
+    names.push({Number:i,Name:randomName});
 }
 
 try {
